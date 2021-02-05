@@ -1,0 +1,95 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: #E7DFDD;
+}
+
+/* LANDING PAGE MOBILE FIRST */
+.landing-page {
+    background: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    height: 100vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    margin-top: 200px;
+}
+
+.hero-text > .initial-text{ 
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.hero-text > .initial-text > span{ 
+    color: #23BE53;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.hero-text > .name-text{ 
+    color: #23BE53;
+    margin: 40px 0 25px 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.hero-text > .welcome-text {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #23BE53;
+    padding: 1rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* SOCIAL DIV */
+
+.stacks {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #333333;
+    height: 100vh;
+    
+}
+
+.social {
+    width: 15rem;
+    height: 4rem;
+    background: black;
+}
+
+.title {
+    width: 100%;
+}
