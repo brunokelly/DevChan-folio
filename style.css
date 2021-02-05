@@ -20,7 +20,7 @@ body {
 }
 
 .content {
-    height: 100vh;
+    width: 100%;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -80,16 +80,71 @@ body {
     align-items: center;
     flex-direction: column;
     background: #333333;
-    height: 100vh;
-    
+    height: 180vh;
 }
 
 .social {
     width: 15rem;
     height: 4rem;
     background: black;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    text-align: center;
 }
+
+.social > img {
+    width: 3rem;
+    margin: 0.5rem;
+}
+
+/* TITULO */
 
 .title {
     width: 100%;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 2rem 0 2rem 0;
+}
+
+/* CARD SKILLS */
+.skills-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-skill {
+    background: black;
+    border-radius: 1rem;
+    width: 12rem;
+    height: 18rem;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: solid #23BE53 2rem;
+    box-shadow: 0 15px 2px -2px rgba(0, 0, 0, 0.295);
+}
+
+.card-skill > img {
+    width: 5rem;
+    margin: 3rem 0rem 3rem 0;
+}
+
+.text-area {
+    width: 100%;
+    font-weight: 600;
+    justify-content: start;
+}
+
+/* PROJECTS */
+.projects { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #333333;
+    height: 100vh;
 }
