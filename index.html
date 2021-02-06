@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css" integrity="sha512-shT5e46zNSD6lt4dlJHb+7LoUko9QZXTGlmWWx0qjI9UhQrElRb+Q5DM7SVte9G9ZNmovz2qIaV7IWv0xQkBkw==" crossorigin="anonymous" />
 </head>
 <body>
     <section class="landing-page">
@@ -18,7 +19,7 @@
                 <img src="./assets/logo2.png" alt="" srcset="">
             </div>
 
-            <div class="hero-text">
+            <div class="land-hero hero-text ">
                 
                 <p class="initial-text"><span>|</span>Desenvolver Frontend</p>
 
@@ -54,7 +55,6 @@
                     <p>1 year</p>
                     <p>10 projects</p>
                     </div>
-                    <div class="green-bar"></div>
                 </div>
                 <div class="card-skill">
                     <img src="./assets/JS.png" alt="">
@@ -62,8 +62,8 @@
                     <div class="text-area">
                         <p>1 year</p>
                         <p>10 projects</p>
-                        </div>
-                    <div class="green-bar"></div>
+                    </div>
+
                 </div>
                 <div class="card-skill">
                     <img src="./assets/css.png" alt="">
@@ -72,7 +72,6 @@
                         <p>1 year</p>
                         <p>10 projects</p>
                         </div>
-                    <div class="green-bar"></div>
                 </div>
             </div>
         </div>
@@ -84,9 +83,70 @@
                 <p class="initial-text">Projects</p>
         </div>
 
+
+        <div class="arrows">
+            <img src='./assets/seta-esquerda.png' id="prev-btn"></img>
+            <img src='./assets/seta-direita.png' id="next-btn"></img>
+        </div>
+        <div class="carousel-slide">
+            
+            <div class="card-skill projects-card" id="lastSlide">
+                <div class="three-points">
+                    <div class="pointsOne"></div>
+                    <div class="pointsTwo"></div>
+                    <div class="pointsThree"></div>
+                </div>
+            </div>
+            <div class="card-skill projects-card" id>
+                <div class="three-points">
+                    <div class="pointsOne"></div>
+                    <div class="pointsTwo"></div>
+                    <div class="pointsThree"></div>
+
+                    <img src="" alt="" srcset="">
+                </div>
+            </div>
+            <div class="card-skill projects-card" id="firstSlide">
+            <div class="three-points">
+                <div class="pointsOne"></div>
+                <div class="pointsTwo"></div>
+                <div class="pointsThree"></div>
+            </div>
+            </div>
+            </div>
+    </section>
+
+    <section class="about-me">
+
+        <div class="content">
+            <div class="title">
+                <p class="initial-text">About me</p>
+            </div>
+
+            <div class="card-skill">
+                <div class="hero-text">
+                    <p class="name-text">Bruno Vieira.</p>
+                </div>
+
+                <p class="welcome-text">Olá, meu nome é Bruno. No momento estou 
+                    cursando Analise e desenvolvimento de sistemas. 
+                    Apaixonado por desenvolvimento front-end.
+                    
+                </p>
+
+                <ul>
+                    <li>Frontend</li>
+                    <li>Backend</li>
+                </ul>
+            </div>
+        </div>
     </section>
     
-    
+    <footer>
+        <span>.folio</span>
+        <span class="final-footer"> Desafio do DevChallange</span>
+    </footer>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
+
 </html>

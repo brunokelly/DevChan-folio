@@ -8,6 +8,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     color: #E7DFDD;
+    background: #333333;
 }
 
 /* LANDING PAGE MOBILE FIRST */
@@ -19,11 +20,24 @@ body {
     align-items: center;
 }
 
+.land-hero {
+    margin: 0 0 2rem 0;
+    position: absolute;
+    bottom: 0;
+    padding: 0 1rem 0 0 ;
+}
+
 .content {
+    background-image: url(./assets/vector.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25rem;
     width: 100%;
     padding: 2rem;
     display: flex;
     flex-direction: column;
+    height: 100%;
+    position: relative;
 }
 
 .navbar {
@@ -34,7 +48,7 @@ body {
 }
 
 .hero-text {
-    margin-top: 200px;
+   margin-top: 200px;
 }
 
 .hero-text > .initial-text{ 
@@ -79,9 +93,10 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: #333333;
-    height: 180vh;
+    height: fit-content;
 }
+
+
 
 .social {
     width: 15rem;
@@ -116,6 +131,7 @@ body {
 }
 
 .card-skill {
+
     background: black;
     border-radius: 1rem;
     width: 12rem;
@@ -127,6 +143,11 @@ body {
     flex-direction: column;
     border-bottom: solid #23BE53 2rem;
     box-shadow: 0 15px 2px -2px rgba(0, 0, 0, 0.295);
+}
+
+#bar-img {
+    margin: 0;
+    width: 3rem;
 }
 
 .card-skill > img {
@@ -145,6 +166,144 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: #333333;
-    height: 100vh;
+    min-height: fit-content;
+    overflow: hidden;
+}
+
+.projects > .content {
+    align-items: center;
+   justify-content: center;
+}
+
+.three-points {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+}
+
+.pointsOne, 
+.pointsTwo, 
+.pointsThree { 
+    width: 1.3rem;
+    height: 1.3rem;
+    background: orange;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+}
+
+.pointsOne {
+    background: rgb(245, 161, 0.966);
+}
+
+.pointsTwo {
+    background: rgba(252, 76, 76, 0.966);
+}
+
+.pointsThree {
+    background: #23BE53;
+}
+
+.projects-card {
+    width: 16rem;
+    margin-left: 1rem;
+}
+
+/* CAROUSEL SLIDE */
+.carousel-slide {
+    display: flex;
+   
+}
+.arrows {
+    position: absolute;
+    display: flex;
+    z-index: 10;
+    color: white;
+    width: 100%;
+    place-content: space-between;
+}
+#next-btn {
+    background-image: url(./assets/seta-direita.png);
+    height: 5rem;
+    width: 5rem;
+    z-index: 10;
+    color: white;
+}
+
+#prev-btn {
+    width: 4rem;
+    background-image: url(./assets/seta-esquerda.png);
+}
+
+/* ABOUT ME */
+
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me > .content > .card-skill {
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    justify-content: start;
+    display: flex;
+}
+
+.about-me > .content > .card-skill > .hero-text {
+    margin-top: 0;
+    width: 100%;
+}
+
+.about-me > .content > .card-skill > .hero-text > .name-text {
+    margin: 0;
+    justify-content: start;
+    font-size: 1.8rem;
+}
+
+.about-me > .content > .card-skill > .welcome-text{
+    margin: 2rem 0 2rem 0;
+    width: 100%;
+}
+
+.skills-text {
+    display: flex;
+    min-width: 100%;
+}
+
+ul {
+    padding: 0 0 0 2rem;
+    place-self: start;
+    font-size: 1rem;
+}
+
+li::marker {
+    color: #23BE53;
+    font-size: 2rem;
+}
+
+
+footer{
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #23BE53;;
+    height: 4rem;
+}
+
+footer > span {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+footer > .final-footer {
+    font-size: 1.2rem;
+    font-weight: 600;
 }
