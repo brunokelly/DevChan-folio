@@ -28,8 +28,6 @@ body {
 }
 
 .content {
-    background-image: url(./assets/vector.png);
-    background-repeat: no-repeat;
     background-position: center;
     background-size: 25rem;
     width: 100%;
@@ -45,6 +43,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.link-nav {
+    display: none;
 }
 
 .hero-text {
@@ -96,7 +98,11 @@ body {
     height: fit-content;
 }
 
+.stacks > .content {
+    background-image: url(./assets/vector.png);
+    background-repeat: no-repeat;
 
+}
 
 .social {
     width: 15rem;
@@ -173,6 +179,8 @@ body {
 .projects > .content {
     align-items: center;
    justify-content: center;
+   background-image: url(./assets/vector.png);
+    background-repeat: no-repeat;
 }
 
 .three-points {
@@ -205,8 +213,8 @@ body {
 }
 
 .projects-card {
-    width: 16rem;
-    margin-left: 1rem;
+    width: 20rem;
+    margin: 0;
 }
 
 /* CAROUSEL SLIDE */
@@ -241,6 +249,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.about-me > .content {
+    background-image: url(./assets/vector.png);
+    background-repeat: no-repeat;
 }
 
 .about-me > .content > .card-skill {
@@ -287,7 +300,7 @@ li::marker {
     font-size: 2rem;
 }
 
-
+/* FOOTER SECTION */
 footer{
     margin-top: 10rem;
     display: flex;
