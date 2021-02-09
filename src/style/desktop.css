@@ -149,6 +149,7 @@
     }
 
     .point-stack{
+        display: flex;
         position: relative;
         left: 8rem;
         height: 1rem;

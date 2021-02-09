@@ -45,6 +45,13 @@ body {
     align-items: center;
 }
 
+.vector-img,
+.top-img,
+.html-img,
+.css-img, .js-img  {
+    display: none;
+}
+
 .link-nav {
     display: none;
 }
@@ -104,6 +111,10 @@ body {
 
 }
 
+.point-stack {
+    display: none;
+}
+
 .social {
     width: 15rem;
     height: 4rem;
@@ -124,7 +135,7 @@ body {
     width: 100%;
     font-weight: 700;
     font-size: 2rem;
-    margin: 2rem 0 2rem 0;
+    margin: 0rem 0 2rem 0;
 }
 
 /* CARD SKILLS */
